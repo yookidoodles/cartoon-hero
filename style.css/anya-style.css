@@ -1,20 +1,65 @@
 body{
-    background-color: lightblue;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font: size 20px;
+    line-height:30px;
 }
-h1{ 
-    font-size: 30px;
-    color: green;
+
+header{
+    background-color: pink; 
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom:50px}
+
+h1,h2{font-family: 'Press Start 2P', cursive; color: darkred}
+
+header img{
+    border-radius: 170px;
+    width: 300px;
+    border:10px solid white;
 }
-h2{color:red}
-.big{
-    font-size:60px;
+
+main {
+    max-width: 800px;
+    margin:0 auto;
+    padding: 20px 20px;
 }
-.uppercase{
-    text-transform:uppercase;
+
+main img{
+    max-width: 100%;
+    border-radius:80px;
 }
-.big.uppercase{
-    color:navy;
+h1{font-size: 30px}
+h2{font-size:20px;
+margin:40px 0 10px}
+
+a{color:blueviolet}
+a:hover{
+    color:black;
+    background-color:pink}
+
+footer{
+    background-color:#d14635;
+    text-align:center;
+    color: white;
+    padding: 30px;
 }
-h1 span{
-    color:violet;
+
+footer p{
+    margin:0
+}
+
+footer a{
+    color:white
+}
+
+footer a:hover{
+    opacity:.5;
+    background-color:transparent;
+}
+
+p.caption {
+    color:grey;
+    font-style:italic;
+    margin-top:0;
 }
